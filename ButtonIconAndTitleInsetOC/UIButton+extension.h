@@ -21,7 +21,7 @@ typedef enum : NSUInteger {
 
 
 @interface UIButton (extension)
--(void)setImageAndTitleWithImageStr:(NSString *)imageStr withTitle:(NSString *)title withType:(ButtonImagePosition)type withspace:(CGFloat)space;
+-(void)setImageAndTitleWithImageStr:(NSString *)imageStr withTitle:(NSString *)title withIconLocationType:(ButtonImagePosition)type withspace:(CGFloat)space;
 @end
 
 NS_ASSUME_NONNULL_END

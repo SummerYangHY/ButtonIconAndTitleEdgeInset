@@ -16,6 +16,7 @@
 		3C36334A23596732009B8E7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C36334923596732009B8E7F /* main.m */; };
 		3C36335423596732009B8E7F /* ButtonIconAndTitleInsetOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C36335323596732009B8E7F /* ButtonIconAndTitleInsetOCTests.m */; };
 		3C36335F23596732009B8E7F /* ButtonIconAndTitleInsetOCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C36335E23596732009B8E7F /* ButtonIconAndTitleInsetOCUITests.m */; };
+		3C36336E23596C9F009B8E7F /* UIButton+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C36336C23596C9F009B8E7F /* UIButton+extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		3C36335A23596732009B8E7F /* ButtonIconAndTitleInsetOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButtonIconAndTitleInsetOCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C36335E23596732009B8E7F /* ButtonIconAndTitleInsetOCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonIconAndTitleInsetOCUITests.m; sourceTree = "<group>"; };
 		3C36336023596732009B8E7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C36336C23596C9F009B8E7F /* UIButton+extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+extension.m"; sourceTree = "<group>"; };
+		3C36336D23596C9F009B8E7F /* UIButton+extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+extension.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,8 @@
 		3C36333623596730009B8E7F /* ButtonIconAndTitleInsetOC */ = {
 			isa = PBXGroup;
 			children = (
+				3C36336D23596C9F009B8E7F /* UIButton+extension.h */,
+				3C36336C23596C9F009B8E7F /* UIButton+extension.m */,
 				3C36333723596730009B8E7F /* AppDelegate.h */,
 				3C36333823596730009B8E7F /* AppDelegate.m */,
 				3C36333A23596730009B8E7F /* SceneDelegate.h */,
@@ -271,6 +276,7 @@
 				3C36333923596730009B8E7F /* AppDelegate.m in Sources */,
 				3C36334A23596732009B8E7F /* main.m in Sources */,
 				3C36333C23596730009B8E7F /* SceneDelegate.m in Sources */,
+				3C36336E23596C9F009B8E7F /* UIButton+extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +446,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7NM5AVH22B;
 				INFOPLIST_FILE = ButtonIconAndTitleInsetOC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -456,6 +463,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7NM5AVH22B;
 				INFOPLIST_FILE = ButtonIconAndTitleInsetOC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

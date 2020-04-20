@@ -10,7 +10,7 @@
 
 @implementation UIButton (extension)
 
--(void)setImageAndTitleWithImageStr:(NSString *)imageStr withTitle:(NSString *)title withType:(ButtonImagePosition)type withspace:(CGFloat)space{
+-(void)setImageAndTitleWithImageStr:(NSString *)imageStr withTitle:(NSString *)title withIconLocationType:(ButtonImagePosition)type withspace:(CGFloat)space{
     [self setTitle:title forState:UIControlStateNormal];
     [self setImage:[UIImage imageNamed:imageStr] forState:UIControlStateNormal];
     CGFloat imageWith = self.imageView.frame.size.width;
